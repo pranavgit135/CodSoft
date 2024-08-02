@@ -14,6 +14,11 @@ Array.from(buttons).forEach((button)=>{
            
             document.querySelector("input").value= string + "0";
         }
+        else if(e.target.innerHTML == "DE"){
+            document.querySelector("input").value=document.querySelector("input").value.toString().slice(0,-1)
+            string=document.querySelector("input").value;
+            document.querySelector("input").value = string;
+        }
         else{
         
         string = string + e.target.innerHTML;

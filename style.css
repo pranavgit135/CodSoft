@@ -44,3 +44,6 @@ html, body{
 .equal{
 width: 145px;
 }
+.operator{
+    color: rgb(12, 212, 202);
+}
