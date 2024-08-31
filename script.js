@@ -28,7 +28,7 @@ Array.from(buttons).forEach((button)=>{
     
    for(let i=0;i<opt.length;i++){
     if(string.startsWith(opt[i])){
-        string=`NAN - press 'AC' first`;
+        string=`0`+ opt[i];
         document.querySelector("input").value= string;
         
     }
